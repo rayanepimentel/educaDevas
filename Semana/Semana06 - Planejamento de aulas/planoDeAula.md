@@ -1,5 +1,5 @@
 
-# Introdução ao Node.js - Criando um servidor básico com Node.js e Express
+# Introdução ao Node.js 
 
 ## Pré-requisitos
 
