@@ -137,7 +137,7 @@ Agora ao acessar[http://localhost:3000/](http://localhost:3000/) você verá a m
 
 ![bemvinda](./img/bemvinda.png)
 
-## Nodemon
+<!-- ## Nodemon
 
 * Para não ficarmos toda hora parando o servidor e rodando novamente, vamos instalar o nodemon.
 
@@ -151,7 +151,7 @@ No arquivo **package.json** em “scripts” add: `"start": "nodemon server.js"`
 
 ![nodemon](./img/nodemon.png)
 
-Agora para iniciar o servidor, digite: `npm start`
+Agora para iniciar o servidor, digite: `npm start` -->
 
 ## .gitIgnore
 - explicar a importância e o que é .gitIgnore
