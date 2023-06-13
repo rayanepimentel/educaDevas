@@ -180,7 +180,6 @@ Criamos uma pasta src na raiz do nosso projeto, onde armazenaremos todos os cód
 
 > Por enquanto estamos apenas guardando nosso JSON aqui, mas no futuro será o lugar onde você irá modelar os esquemas de dados para o banco. Não fique ansiosa! Acredite no processo, ele funciona! -->
 
-## Encerramento (15)
+## Encerramento (10)
 
 - Explicar o que vimos passando por alguns pontos importante da estrutura do projeto.
-- Perguntas/discursões
