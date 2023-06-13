@@ -2,17 +2,18 @@
 
 ## Pré-requisitos:
 
-# Git + Github
+# Introdução ao Node.js
 
 ## Pré-requisitos
 
 Quais são os softwares necessários para a aula?
-- Git 
-- Github 
+- Instalacão local do Node.js e NPM
+- Editor de texto
+ 
 
 ## Propósito
-- O que é Git e Github
-- Compreender controle de versão e explorar recursos do git e github
+- Entender o que é Node.js
+- Compreender a importância de manter um código seguro
 
 ## Apresentação & Contextualização
 
@@ -21,3 +22,4 @@ Quais são os softwares necessários para a aula?
 ## Exercícios
 
 ## Referências de conteúdos extras
+
