@@ -1,8 +1,5 @@
-# Aula de Git e GitHub
 
-## Pré-requisitos:
-
-# Introdução ao Node.js
+# Introdução ao Node.js - Criando um servidor básico com Node.js e Express
 
 ## Pré-requisitos
 
