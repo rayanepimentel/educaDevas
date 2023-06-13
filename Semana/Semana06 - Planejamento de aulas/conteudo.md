@@ -159,7 +159,7 @@ Agora para iniciar o servidor, digite: `npm start` -->
 O arquivo .gitIgnore usamos para ele ignorar alguns arquivos/pastas que não queremos subir ao fazer o commit. Por exemplo a pasta node\_modules.
 
 ![git](./img/git.png)
-
+<!-- 
 ## Estrutura de pastas
 
 Criamos uma pasta src na raiz do nosso projeto, onde armazenaremos todos os códigos da aplicação. Dentro dessa, criaremos três pastas e um arquivo.
@@ -178,7 +178,7 @@ Criamos uma pasta src na raiz do nosso projeto, onde armazenaremos todos os cód
 
 #### 📂 Model
 
-> Por enquanto estamos apenas guardando nosso JSON aqui, mas no futuro será o lugar onde você irá modelar os esquemas de dados para o banco. Não fique ansiosa! Acredite no processo, ele funciona!
+> Por enquanto estamos apenas guardando nosso JSON aqui, mas no futuro será o lugar onde você irá modelar os esquemas de dados para o banco. Não fique ansiosa! Acredite no processo, ele funciona! -->
 
 ## Encerramento
 
