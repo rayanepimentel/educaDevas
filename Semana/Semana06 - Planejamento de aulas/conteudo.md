@@ -14,7 +14,7 @@
 
 > - Instruir as alunas a criarem um repositório para o projeto.
 > - Explicando como iniciar um projeto em nodejs utilizando npm.
-> - Explicando o que é dependência
+> - Explicando o que é dependência, o que é express
 > - Explicando a pasta `node_modules` e os arquivos`package.json` e `package-lock.json`
 
 - Na pasta do projeto:
