@@ -19,6 +19,7 @@ Quais são os softwares necessários para a aula?
 [Conteúdo](conteudo.md)
 
 ## Exercícios
+[Exercícios](atividade.md]
 
 ## Referências de conteúdos extras
 
