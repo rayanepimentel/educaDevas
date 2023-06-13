@@ -1,15 +1,21 @@
 # Conteudo de aula
 
-## Introdução(5min)
-- utilizar de analogia para as alunas entenderem como funciona o node.js
+## Introdução
+> - utilizar de analogia para as alunas entenderem como funciona o node.js
 
-## Instalação e configuração do Node.js e npm(10min)
+## Instalação e configuração do Node.js e npm
 
-- Fazer o download do instalador adequado para o seu sistema operacional a partir do site oficial do Node.js (https://nodejs.org/en/). O Node.js vem com o npm (Node Package Manager), que é um gerenciador de pacotes usado para instalar e gerenciar bibliotecas e dependências de projetos em Node.js.
+> - Instruir na instalação do nodejs
+> - Verificar se a instação foi feita corretamente
 
-## Criando um projeto do zero (20min)
+![node -v](./img/instalnode.png)
 
-Instruir as alunas a criarem um repositório para o projeto.
+## Criando um projeto do zero 
+
+> - Instruir as alunas a criarem um repositório para o projeto.
+> - Explicando como iniciar um projeto em nodejs utilizando npm.
+> - Explicando o que é dependência
+> - Explicando a pasta `node_modules` e os arquivos`package.json` e `package-lock.json`
 
 - Na pasta do projeto:
 
@@ -23,7 +29,6 @@ Instruir as alunas a criarem um repositório para o projeto.
 ```
 
 - Instalação de dependências:
-Explicar o que é uma dependência
 
 
 * Instale o express: **`npm install express --save`**([Express](https://expressjs.com/pt-br/).js para encaminhar cada solicitação [HTTP](https://github.com/reprograma/ON15-TET-S8-API-I/blob/main/material/API%20GET.pdf) para o manipulador adequado).
@@ -36,12 +41,17 @@ Chamar a atenção para  pasta node\_modules.
 
 
 
-## Criando o servidor (1h)
-- explicar o que é servidor
-- O que é require
-- O que é módulo
-- HTTP
-- req e response
+| node_modules                            | package                        | package-lock  |
+|-----------------------------------------|--------------------------------|----------------|
+| ![node_modules](./img/node_modules.png) |  ![package](./img/package.png) |  ![package-lock](./img/package-lock.png) |
+
+
+## Criando o servidor
+> - explicar o que é servidor
+> - O que é require
+> - O que é módulo
+> - HTTP
+> - req e response
 
 
 * Dentro do arquivo que você criou (server.js), importe o express.
@@ -60,7 +70,7 @@ Chamar a atenção para  pasta node\_modules.
 
 * Se você digitar **app.** aparecerá algumas opções, selecione a opção **listen**
 
-![](<../../.gitbook/assets/image (23).png>)
+![app](./img/app.png)
 
 * O **app.listen()** escuta as requisições vindas da porta, passando o callback que sempre será executado ao receber uma requisição.
 
@@ -74,7 +84,9 @@ No terminal, rode **node server.js**, provavelmente terá a saída: **Rodando na
 
 Acessando no navegador locallhost:3000, você terá essa saída:
 
-![](<../../.gitbook/assets/image (27).png>)
+![servidor](./img/servidor.png)
+
+
 
 Não é nenhum erro, mas não temos nenhum verbo http(get/post/put/delete…) configurado.
 
@@ -82,7 +94,7 @@ Para exibir uma mensagem ao entramos em locallhost:3000, precisamos configurar o
 
 Digite novamente **app.** e selecione a opção **get**.
 
-![](<../../.gitbook/assets/image (35).png>)
+![app get](./img/appget.png)
 
 Com o get, mandamos uma request e o servidor precisa tá preparado para receber e responde-lo.
 
@@ -92,7 +104,7 @@ Como queremos que a nossa mensagem seja na pagina de inicio, logo quando o clien
 
 O **req** é o que estamos enviando, por exemplo se você colocar **console.log(req)** verá que ele envia várias coisas, uma delas é o caminho, **req.url,** a saída será **/** .
 
-![](<../../.gitbook/assets/image (31).png>)
+![console](./img/console.png)
 
 O **res** é a resposta do request.
 
@@ -124,7 +136,7 @@ Sempre que você alterar o arquivo server.js é necessário parar o servidor e r
 
 Agora ao acessar[http://localhost:3000/](http://localhost:3000/) você verá a mensagem de **Bem-vindas!!!**
 
-![](<../../.gitbook/assets/image (16).png>)
+![bemvinda](./img/bemvinda.png)
 
 ## Nodemon
 
@@ -138,7 +150,7 @@ Ou podemos também configurar o **package.json** para não precisarmos digitar n
 
 No arquivo **package.json** em “scripts” add: `"start": "nodemon server.js"`
 
-![](<../../.gitbook/assets/image (3).png>)
+![nodemon](./img/nodemon.png)
 
 Agora para iniciar o servidor, digite: `npm start`
 
@@ -147,7 +159,7 @@ Agora para iniciar o servidor, digite: `npm start`
 
 O arquivo .gitIgnore usamos para ele ignorar alguns arquivos/pastas que não queremos subir ao fazer o commit. Por exemplo a pasta node\_modules.
 
-![](<../../.gitbook/assets/image (4) (1).png>)
+![git](./img/git.png)
 
 ## Estrutura de pastas
 
