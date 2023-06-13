@@ -1,16 +1,16 @@
 # Conteudo de aula
 
-## Introdução
+## Introdução (5min)
 > - utilizar de analogia para as alunas entenderem como funciona o node.js
 
-## Instalação e configuração do Node.js e npm
+## Instalação e configuração do Node.js e npm (5min)
 
 > - Instruir na instalação do nodejs
 > - Verificar se a instação foi feita corretamente
 
 ![node -v](./img/instalnode.png)
 
-## Criando um projeto do zero 
+## Criando um projeto do zero (20min)
 
 > - Explicando como iniciar um projeto em nodejs utilizando npm.
 > - Explicando o que é dependência, o que é express
@@ -45,12 +45,13 @@ Chamar a atenção para  pasta node\_modules.
 | ![node_modules](./img/node_modules.png) |  ![package](./img/package.png) |  ![package-lock](./img/package-lock.png) |
 
 
-## Criando o servidor
+## Criando o servidor (30min)
 > - explicar o que é servidor
 > - O que é require
 > - O que é módulo
 > - HTTP
-> - req e response
+> - req e res
+> - explicar a importância e o que é .gitIgnore
 
 
 * Dentro do arquivo que você criou (server.js), importe o express.
@@ -153,8 +154,7 @@ No arquivo **package.json** em “scripts” add: `"start": "nodemon server.js"`
 
 Agora para iniciar o servidor, digite: `npm start` -->
 
-## .gitIgnore
-- explicar a importância e o que é .gitIgnore
+### .gitIgnore
 
 O arquivo .gitIgnore usamos para ele ignorar alguns arquivos/pastas que não queremos subir ao fazer o commit. Por exemplo a pasta node\_modules.
 
@@ -180,6 +180,6 @@ Criamos uma pasta src na raiz do nosso projeto, onde armazenaremos todos os cód
 
 > Por enquanto estamos apenas guardando nosso JSON aqui, mas no futuro será o lugar onde você irá modelar os esquemas de dados para o banco. Não fique ansiosa! Acredite no processo, ele funciona! -->
 
-## Encerramento
+## Encerramento (10)
 
 - Explicar o que vimos passando por alguns pontos importante da estrutura do projeto.
