@@ -9,7 +9,7 @@ Quais são os softwares necessários para a aula?
  
 
 ## Propósito
-- Entender o que é Node.js 
+- O propósito dessa aula seria introduzir as alunas ao Node.js e ensinar conceitos básicos de configuração e criação de um projeto utilizando essa tecnologia
 
 
 ## Apresentação & Contextualização
