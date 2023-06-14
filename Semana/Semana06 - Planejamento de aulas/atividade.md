@@ -2,4 +2,4 @@
 
 ## Criando um projeto
 
-Crie um novo projeto conforme vimos nessa aula e crie uma nova rota.
+Criar um projeto com node.js utilizando express conforme vimos na aula e criar uma nova rota.
