@@ -1,4 +1,4 @@
-# Conteudo de aula
+# Conteudo da aula
 
 ## Introdução (5min)
 > - utilizar de analogia para as alunas entenderem como funciona o node.js
