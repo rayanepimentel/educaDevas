@@ -1,6 +1,12 @@
 
 # Introdução ao Node.js 
 
+## Dinamica
+- Quebra gelo (10min)
+- Slide (30min)
+- Intervalo (10min)
+- Contéudo (1h10)
+
 ## Pré-requisitos
 
 Quais são os softwares necessários para a aula?
